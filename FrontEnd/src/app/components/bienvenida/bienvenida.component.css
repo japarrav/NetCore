@@ -1,0 +1,30 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.em;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    min-height: 100vh;
+}
+
+hr{
+    border-width: 3px;
+    max-width: 65px;
+    border-color: #F05044;
+}
+
+.btn-xl{
+    background-color: #F05044;
+    border-color: #F05044;
+    margin:10px;
+    padding: 1rem 2 rem;
+    border-radius: 30px;
+}
+
+.btn-xl:hover{
+    background-color: #f00123;
+    border-radius:  #f00123;
+}
